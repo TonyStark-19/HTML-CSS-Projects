@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glassmorphism Login Form</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glassmorphism Login Form</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="login-wrapper">
+    <form id="loginForm" action="#">
+      <h2>Login</h2>
 
-    <div class="login-wrapper">
+      <div class="input-field">
+        <!-- placeholder=" " enables :placeholder-shown to detect "empty" vs "has text" -->
+        <input type="text" id="username" placeholder=" " required>
+        <label for="username">Enter your email</label>
+      </div>
 
-        <form action="#">
+      <div class="input-field">
+        <input type="password" id="password" placeholder=" " required>
+        <label for="password">Enter your password</label>
+      </div>
 
-            <h2>Login</h2>
+      <div class="password-options">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password</a>
+      </div>
 
-            <div class="input-field">
-                <input type="text" required>
-                <label>Enter your email</label>
-            </div>
+      <button type="submit">Log in</button>
 
-            <div class="input-field">
-                <input type="password" required>
-                <label>Enter your password</label>
-            </div>
+      <div class="account-options">
+        <p>Don't have an account? <a href="#">Register</a></p>
+      </div>
+    </form>
+  </div>
 
-            <div class="password-options">
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function (event) {
+      event.preventDefault(); // prevent navigation while demoing
 
-                <label for="remember">
-                    <input type="checkbox" id="remember">
-                    <p>Remember me</p>
-                </label>
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value.trim();
 
-                <a href="#">Forgot password</a>
+      if (!username || !password) {
+        alert("Please enter your username and password.");
+        return;
+      }
 
-            </div>
-
-            <button type="submit">Log in</button>
-
-            <div class="account-options">
-                <p>Dont't have an account? <a href="#">Register</a></p>
-            </div>
-
-        </form>
-
-    </div>
-
+      // proceed (demo)
+      alert("Login successful!"); 
+      // For real form submission, remove event.preventDefault() or call form.submit()
+    });
+  </script>
 </body>
-
 </html>
