@@ -101,6 +101,7 @@ body {
     color: #fff;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    transition: all 0.3s ease;
 }
 
 .back-face ul a:hover {

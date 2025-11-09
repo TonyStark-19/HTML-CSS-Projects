@@ -18,11 +18,11 @@ body {
 
 .container {
     position: relative;
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     background: #fff;
     margin: 0 15px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 7px;
 }
 
@@ -106,46 +106,4 @@ body {
     z-index: -1;
     background-color: #4070f4;
     transform: translateX(-50%) rotate(45deg);
-}
-
-/* responsiveness */
-
-@media (max-width: 550px) {
-
-    .container {
-        max-width: 450px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-
-    .container {
-        max-width: 400px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 440px) {
-
-    .container {
-        max-width: 340px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 390px) {
-
-    .container {
-        max-width: 300px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 340px) {
-
-    .container {
-        max-width: 280px;
-        width: 100%;
-    }
 }

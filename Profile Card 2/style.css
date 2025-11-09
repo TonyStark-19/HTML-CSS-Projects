@@ -175,7 +175,7 @@ body {
 
     .main-box {
         height: 450px;
-        width: 350px;
+        width: 90%;
         top: 60%;
     }
 
@@ -188,7 +188,6 @@ body {
 
     .main-box {
         height: 350px;
-        width: 290px;
         top: 65%;
     }
 

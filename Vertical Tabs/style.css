@@ -45,6 +45,7 @@ body {
     position: relative;
     width: 20%;
     margin-right: 50px;
+    gap: 10px;
 }
 
 .content .list label {
@@ -89,19 +90,19 @@ body {
 }
 
 #blog:checked~.list .indicator {
-    top: 60px;
+    top: 70px;
 }
 
 #help:checked~.list .indicator {
-    top: 120px;
+    top: 140px;
 }
 
 #code:checked~.list .indicator {
-    top: 180px;
+    top: 210px;
 }
 
 #about:checked~.list .indicator {
-    top: 240px;
+    top: 280px;
 }
 
 .container input[type="radio"] {
@@ -168,7 +169,7 @@ body {
 
     .content .list label {
         font-size: 18px;
-        padding: 0 10px 10px;
+        padding: 0 20px 10px;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -253,11 +254,6 @@ body {
 
     .container .main-title {
         font-size: 20px;
-    }
-
-    .content .list {
-        flex-direction: column;
-        align-items: center;
     }
 
     .content .list label {

@@ -52,6 +52,7 @@ form h2 {
     position: relative;
     margin: 15px 0;
     border-bottom: 2px solid #ccc;
+    height: 60px;
 }
 
 .input-field input {
@@ -98,6 +99,8 @@ form h2 {
 #remember {
     accent-color: #fff;
     accent-color: #09a3f1;
+    height: 15px;
+    width: 15px;
 }
 
 .password-options label p {
@@ -118,7 +121,7 @@ button {
     color: #000;
     font-size: 1rem;
     font-weight: 600;
-    padding: 12px 20px;
+    padding: 10px 20px;
     border-radius: 3px;
     border: 2px solid transparent;
     cursor: pointer;
@@ -144,7 +147,7 @@ button:hover {
 @media (max-width: 450px) {
 
     .login-wrapper {
-        width: 350px;
+        width: 90%;
     }
 
     button {
@@ -153,10 +156,6 @@ button:hover {
 }
 
 @media (max-width: 390px) {
-
-    .login-wrapper {
-        width: 280px;
-    }
 
     .password-options {
         flex-direction: column;

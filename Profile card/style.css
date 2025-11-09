@@ -150,15 +150,6 @@ body {
 @media (max-width: 420px) {
 
     .profile-card {
-        max-width: 320px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 360px) {
-
-    .profile-card {
-        max-width: 290px;
-        width: 100%;
+        width: 90%;
     }
 }

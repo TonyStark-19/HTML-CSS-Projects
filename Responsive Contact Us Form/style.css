@@ -56,6 +56,7 @@ body {
 .content .left-side .details {
     margin: 14px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .content .left-side .details i {
@@ -84,12 +85,13 @@ body {
     font-size: 23px;
     font-weight: 600;
     color: #3e2093;
+    margin-bottom: 5px;
 }
 
 .right-side .input-box {
     height: 50px;
     width: 100%;
-    margin: 12px 0;
+    margin: 15px 0;
 }
 
 .right-side .input-box input,
@@ -135,14 +137,16 @@ body {
     background: #5029bc;
 }
 
-@media (max-width:952px) {
+@media (max-width: 952px) {
+
     .container {
         width: 90%;
         padding: 30px 35px 40px 35px;
     }
 }
 
-@media (max-width:820px) {
+@media (max-width: 820px) {
+
     .container {
         margin: 40px 0;
         height: 100%;

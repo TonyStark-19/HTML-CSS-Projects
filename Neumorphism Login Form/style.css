@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    width: 330px;
+    width: 450px;
     background: #dde1e7;
     border-radius: 10px;
     padding: 40px 30px;
@@ -82,7 +82,7 @@ body {
 
 .forgot {
     text-align: left;
-    margin: 10px 0 10px 5px;
+    margin: 15px 0 10px 5px;
 }
 
 .forgot a {
@@ -137,9 +137,9 @@ button:focus {
 
 /* responsiveness */
 
-@media (max-width: 370px) {
+@media (max-width: 500px) {
 
     .content {
-        width: 290px;
+        width: 90%;
     }
 }

@@ -143,8 +143,7 @@
 @media (max-width: 500px) {
 
     .alert-box {
-        max-width: 400px;
-        width: 100%;
+        width: 90%;
     }
 
     .alert-box .icon {
@@ -171,11 +170,6 @@
 
 @media (max-width: 460px) {
 
-    .alert-box {
-        max-width: 350px;
-        width: 100%;
-    }
-
     .alert-box p {
         font-size: 17px;
     }
@@ -189,11 +183,6 @@
 }
 
 @media (max-width: 400px) {
-
-    .alert-box {
-        max-width: 290px;
-        width: 100%;
-    }
 
     .alert-box p {
         font-size: 16px;

@@ -110,8 +110,7 @@ body {
 @media (max-width: 450px) {
 
     .wrapper {
-        max-width: 350px;
-        width: 100%;
+        width: 90%;
     }
 
     .wrapper .bottom .info {
@@ -120,21 +119,5 @@ body {
 
     .wrapper .bottom .input-box input {
         font-size: 16px;
-    }
-}
-
-@media (max-width: 400px) {
-
-    .wrapper {
-        max-width: 300px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 360px) {
-
-    .wrapper {
-        max-width: 280px;
-        width: 100%;
     }
 }

@@ -160,8 +160,7 @@ body {
 @media (max-width: 410px) {
 
     .container {
-        max-width: 320px;
-        width: 100%;
+        width: 90%;
     }
 
     .container form .title {
@@ -176,18 +175,11 @@ body {
 @media (max-width: 370px) {
 
     .container {
-        max-width: 300px;
-        width: 100%;
         padding: 20px;
     }
 }
 
 @media (max-width: 340px) {
-
-    .container {
-        max-width: 280px;
-        width: 100%;
-    }
 
     .container .facebook a {
         margin-bottom: 10px;

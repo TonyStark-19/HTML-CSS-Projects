@@ -106,6 +106,7 @@ nav .heading h2 {
     bottom: 20px;
     position: fixed;
     display: none;
+    z-index: 50;
 }
 
 .back-to-top button {
@@ -116,7 +117,6 @@ nav .heading h2 {
     border: 1px solid #fff;
     border-radius: 10px;
     cursor: pointer;
-    z-index: 7;
 }
 
 .back-to-top i {
@@ -175,7 +175,7 @@ nav .heading h2 {
 .button-wrap {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .code-btn,
@@ -204,7 +204,7 @@ nav .heading h2 {
 /* footer */
 
 footer {
-    padding: 40px 30px;
+    padding: 50px 30px 20px;
     border-top: 1px solid #fff;
     background: #021526;
     display: flex;
@@ -218,8 +218,9 @@ footer {
 .foot-wrap {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 200px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 footer .resources,
@@ -234,7 +235,7 @@ footer .more-links {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .resources a,
@@ -242,7 +243,7 @@ footer .more-links {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -298,49 +299,36 @@ footer .more-links {
 }
 
 .icons a:nth-child(4) i:hover {
-    color: #2980b0;
+    color: #000;
     background: #fff;
 }
 
 /* end text */
 
 .end-text {
-    margin: 40px 0 -10px;
+    margin: 50px 0 0;
 }
 
 .end-text p {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* responsiveness */
-
-@media (max-width: 1200px) {
-
-    /* footer */
-
-    .foot-wrap {
-        gap: 100px;
-    }
-}
 
 @media (max-width: 1000px) {
 
     /* footer */
 
     footer {
-        padding: 30px 20px;
-    }
-
-    .foot-wrap {
-        gap: 80px;
+        padding: 40px 20px 20px;
     }
 
     .resources .heading h3,
     .connect .heading h3,
     .more-links h3 {
         font-size: 18px;
-        margin-bottom: 6px;
+        margin-bottom: 10px;
     }
 
     .resources a,
@@ -354,10 +342,6 @@ footer .more-links {
         line-height: 33px;
         font-size: 16px;
     }
-
-    .end-text p {
-        font-size: 17px;
-    }
 }
 
 @media (max-width: 900px) {
@@ -367,6 +351,10 @@ footer .more-links {
     .project-wrap {
         gap: 40px;
     }
+
+    .project-box {
+        width: 60%;
+    }
 }
 
 @media (max-width: 850px) {
@@ -375,7 +363,7 @@ footer .more-links {
 
     footer {
         align-items: flex-start;
-        padding: 40px 30px;
+        padding: 40px 30px 20px;
     }
 
     .foot-wrap {
@@ -392,7 +380,6 @@ footer .more-links {
     .connect .heading h3,
     .more-links h3 {
         font-size: 20px;
-        margin-bottom: 10px;
     }
 
     .resources a,
@@ -407,8 +394,15 @@ footer .more-links {
         font-size: 17px;
     }
 
-    .end-text p {
-        font-size: 18px;
+    .end-text {
+        margin: 30px 0 0;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .project-box {
+        width: 95%;
     }
 }
 
@@ -441,12 +435,6 @@ footer .more-links {
     .project-wrap {
         gap: 30px;
     }
-
-    /* project-box */
-
-    .project-box {
-        width: 350px;
-    }
 }
 
 @media (max-width: 490px) {
@@ -472,10 +460,6 @@ footer .more-links {
     }
 
     /* project-box */
-
-    .project-box {
-        width: 300px;
-    }
 
     .project-box .image img {
         height: 160px;
@@ -508,7 +492,7 @@ footer .more-links {
     /* footer */
 
     footer {
-        padding: 30px 20px;
+        padding: 30px 20px 20px;
     }
 
     .foot-wrap {
@@ -518,23 +502,18 @@ footer .more-links {
     .resources .heading h3,
     .connect .heading h3,
     .more-links h3 {
-        font-size: 16px;
-        margin-bottom: 6px;
+        font-size: 17px;
     }
 
     .resources a,
     .more-links a {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .icons i {
         height: 35px;
         width: 35px;
         line-height: 33px;
-        font-size: 16px;
-    }
-
-    .end-text p {
         font-size: 16px;
     }
 }
@@ -569,11 +548,5 @@ footer .more-links {
 
     .container {
         padding-top: 100px;
-    }
-
-    /* project-box */
-
-    .project-box {
-        width: 280px;
     }
 }
