@@ -1,9 +1,11 @@
 # 🚀 HTML & CSS Mini Projects Website  
 
-Welcome to the **HTML & CSS Mini Projects Website!** 🎨✨  
-This website showcases various **mini projects** I created to enhance my front-end development skills. Each project is displayed with an **image preview**, **source code link**, and **live deployment link** for easy access.  
+Welcome to my **HTML & CSS Mini Projects Website!** 🎨✨ <br />
+This collection showcases multiple **UI components, layouts, animations**, and **form designs** built to strengthen my front-end development skills using pure **HTML & CSS.**
 
-This is part of my continuous journey to master HTML, CSS, and UI/UX design. 🚀  
+Each project features an **image preview, source code**, and **live demo**, making it easy for beginners and developers to explore and learn.
+
+This website is part of my continuous journey to master HTML, CSS, and UI/UX design. 🚀
 
 ---
 
@@ -115,8 +117,10 @@ Each project includes:
 
 ---
 
-## Why This Project?
-This repository was created as part of my #100DaysOfCode challenge to improve my front-end skills. Each project reflects the skills I’m building along the way.
+## 🌟 Why This Project?
+
+This repository is part of my #100DaysOfCode challenge, focused on improving my **HTML & CSS** mastery through hands-on mini projects. <br />
+Each project marks progress in layout design, styling, responsiveness, and UI creativity.
 
 ---
 
@@ -145,7 +149,7 @@ To use these projects locally, follow these steps:
 
 1️⃣ **Clone this repository**  
 ```bash
-git clone https://github.com/TonyStark-19/html-css-mini-projects.git
+git clone https://github.com/TonyStark-19/HTML-CSS-Projects.git
 ```
 
 2️⃣ **Open a project folder and launch the `.html` file in your browser.**
