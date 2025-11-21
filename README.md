@@ -1,5 +1,16 @@
 # 🚀 HTML & CSS Mini Projects Website  
 
+![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/HTML-CSS-Projects?color=yellow)
+![Stars](https://img.shields.io/github/stars/TonyStark-19/HTML-CSS-Projects?color=blue)
+![Forks](https://img.shields.io/github/forks/TonyStark-19/HTML-CSS-Projects?color=blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/TonyStark-19/HTML-CSS-Projects?color=brightgreen)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![ScrollReveal](https://img.shields.io/badge/Library-ScrollReveal-blueviolet)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
+
 Welcome to my **HTML & CSS Mini Projects Website!** 🎨✨ <br />
 This collection showcases multiple **UI components, layouts, animations**, and **form designs** built to strengthen my front-end development skills using pure **HTML & CSS.**
 
@@ -56,6 +67,12 @@ Each project includes:
 ---
 
 ## 📂 Projects
+
+![Projects](https://img.shields.io/badge/Projects-40%2B-success)
+![Frontend](https://img.shields.io/badge/Category-Frontend-blue)
+![UI/UX](https://img.shields.io/badge/Design-UI%2FUX-orange)
+![Responsive](https://img.shields.io/badge/Responsive-Design-green)
+![Animations](https://img.shields.io/badge/CSS-Animations-purple)
 
 > **UI Components**
 
