@@ -1,0 +1,40 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8%;
+    background: rgba(5, 8, 15, 0.85);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid var(--glass-border);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.logo span {
+    color: var(--html-orange);
+    font-weight: 300;
+}
+
+.star-btn {
+    text-decoration: none;
+    color: white;
+    background: var(--glass);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid var(--glass-border);
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.star-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--css-blue);
+}

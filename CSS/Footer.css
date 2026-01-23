@@ -1,0 +1,83 @@
+/* Footer Styles */
+
+footer {
+    padding: 6rem 8% 3rem;
+    border-top: 1px solid var(--glass-border);
+    background: rgba(5, 8, 15, 0.4);
+    margin-top: 4rem;
+}
+
+.foot-wrap {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 0.8fr 0.8fr;
+    /* Balanced 4-column grid */
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.footer-col h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-weight: 700;
+}
+
+/* About Column Styling */
+.about-col p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    max-width: 320px;
+}
+
+.footer-col a {
+    display: block;
+    color: #94a3b8;
+    text-decoration: none;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+}
+
+.footer-col a:hover {
+    color: var(--html-orange);
+    transform: translateX(5px);
+    /* Subtle slide effect on hover */
+}
+
+/* Social Icons Refinement */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-icons a i {
+    font-size: 1.2rem;
+    color: #94a3b8;
+    width: 40px;
+    height: 40px;
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.social-icons a:hover i {
+    color: white;
+    background: var(--css-blue);
+    border-color: var(--css-blue);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(21, 114, 182, 0.2);
+}
+
+.end-text {
+    text-align: center;
+    color: #475569;
+    font-size: 0.9rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--glass-border);
+}
