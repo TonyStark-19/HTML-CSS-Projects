@@ -17,6 +17,11 @@
     font-size: 1.25rem;
 }
 
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
 .logo span {
     color: var(--html-orange);
     font-weight: 300;

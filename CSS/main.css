@@ -122,6 +122,11 @@ p {
     font-size: 1.3rem;
     display: block;
     margin-bottom: 4px;
+    font-size: 1.8rem;
+    background: linear-gradient(90deg, var(--html-orange), var(--css-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .stat span {
@@ -156,6 +161,7 @@ p {
     box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
     animation: float 6s infinite ease-in-out;
     z-index: 2;
+    margin-left: 40px;
 }
 
 .card-img-box {

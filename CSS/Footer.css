@@ -1,83 +1,61 @@
-/* Footer Styles */
-
-footer {
-    padding: 6rem 8% 3rem;
+/* FOOTER BASE */
+.site-footer {
+    margin-top: 6rem;
+    padding: 5rem 8% 3rem;
+    background: linear-gradient(to top, rgba(5, 8, 15, 0.9), rgba(5, 8, 15, 0.6));
     border-top: 1px solid var(--glass-border);
-    background: rgba(5, 8, 15, 0.4);
-    margin-top: 4rem;
+    backdrop-filter: blur(12px);
 }
 
-.foot-wrap {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr 0.8fr 0.8fr;
-    /* Balanced 4-column grid */
-    gap: 3rem;
+/* GRID LAYOUT */
+.footer-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-bottom: 4rem;
 }
 
+/* HEADINGS */
 .footer-col h3 {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
     color: white;
-    font-weight: 700;
+    font-size: 1.1rem;
 }
 
-/* About Column Styling */
-.about-col p {
+.footer-col.about {
+    width: 40%;
+}
+
+/* TEXT STYLE */
+.muted {
     color: #94a3b8;
     font-size: 0.95rem;
     line-height: 1.7;
-    max-width: 320px;
 }
 
+/* LINKS */
 .footer-col a {
     display: block;
     color: #94a3b8;
-    text-decoration: none;
     margin-bottom: 0.8rem;
+    text-decoration: none;
     font-size: 0.95rem;
     transition: 0.3s ease;
 }
 
 .footer-col a:hover {
     color: var(--html-orange);
-    transform: translateX(5px);
-    /* Subtle slide effect on hover */
+    transform: translateX(6px);
 }
 
-/* Social Icons Refinement */
-.social-icons {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.social-icons a i {
-    font-size: 1.2rem;
-    color: #94a3b8;
-    width: 40px;
-    height: 40px;
-    background: var(--glass);
-    border: 1px solid var(--glass-border);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-}
-
-.social-icons a:hover i {
-    color: white;
-    background: var(--css-blue);
-    border-color: var(--css-blue);
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(21, 114, 182, 0.2);
-}
-
-.end-text {
+/* BOTTOM STRIP */
+.footer-bottom {
     text-align: center;
-    color: #475569;
-    font-size: 0.9rem;
-    padding-top: 2rem;
     border-top: 1px solid var(--glass-border);
+    padding-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
 }
