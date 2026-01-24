@@ -39,12 +39,12 @@ body {
 
 .container .box-group {
     position: absolute;
-    top: 65px;
+    top: 75px;
     left: 280px;
 }
 
 .box-group .box2 {
-    margin-top: 18px;
+    margin-top: 22px;
 }
 
 .container input[type="checkbox"] {
@@ -94,7 +94,6 @@ input:checked[type="checkbox"]::before {
 
     .container .box-group {
         position: absolute;
-        top: 65px;
         left: 80%;
     }
 }
