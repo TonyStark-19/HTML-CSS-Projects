@@ -1,4 +1,5 @@
 /* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -42,4 +43,25 @@
 .star-btn:hover {
     background: rgba(255, 255, 255, 0.1);
     border-color: var(--css-blue);
+}
+
+/* responsiveness */
+
+@media (max-width: 500px) {
+
+    .navbar {
+        padding: 1.5rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .star-btn {
+        padding: 10px 15px;
+    }
+
+    .star-btn span {
+        display: none;
+    }
 }

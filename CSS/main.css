@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
 /* Root Variables */
+
 :root {
     --html-orange: #E34F26;
     --css-blue: #1572B6;
@@ -22,6 +23,7 @@ body {
 }
 
 /* Premium Mesh Gradient Background */
+
 .mesh-bg {
     position: fixed;
     inset: 0;
@@ -31,19 +33,18 @@ body {
 }
 
 /* Hero Grid Layout */
+
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 100vh;
     padding: 120px 8% 0 8%;
-    /* Top padding added to create space from Navbar */
     align-items: center;
     gap: 5rem;
 }
 
 .content-side {
     max-width: 550px;
-    /* Slightly smaller width as requested */
 }
 
 .badge {
@@ -137,6 +138,7 @@ p {
 }
 
 /* Visual Side - Image Previews */
+
 .visual-side {
     position: relative;
     display: flex;
@@ -231,16 +233,18 @@ p {
 }
 
 /* Mobile Responsiveness */
+
 @media (max-width: 1024px) {
+
     .hero-grid {
         grid-template-columns: 1fr;
         text-align: center;
-        padding-top: 150px;
+        padding-top: 140px;
         gap: 2rem;
     }
 
     .content-side {
-        max-width: 100%;
+        max-width: 80%;
         margin: 0 auto;
     }
 
@@ -248,12 +252,29 @@ p {
         display: none;
     }
 
-    /* Visuals hidden on mobile to keep it clean */
     .cta-btns {
         justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .content-side {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .cta-btns {
+        flex-direction: column;
     }
 
     .stats-row {
         justify-content: center;
+    }
+
+    .stat strong {
+        font-size: 1.2rem;
     }
 }
