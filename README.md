@@ -1,4 +1,4 @@
-# 🚀 HTML & CSS Mini Projects Website  
+# 🚀 HTML & CSS Mini Projects Hub
 
 ![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/HTML-CSS-Projects?color=yellow)
 ![Stars](https://img.shields.io/github/stars/TonyStark-19/HTML-CSS-Projects?color=blue)
@@ -11,33 +11,23 @@
 ![ScrollReveal](https://img.shields.io/badge/Library-ScrollReveal-blueviolet)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
 
-Welcome to my **HTML & CSS Mini Projects Website!** 🎨✨ <br />
-This collection showcases multiple **UI components, layouts, animations**, and **form designs** built to strengthen my front-end development skills using pure **HTML & CSS.**
-
-Each project features an **image preview, source code**, and **live demo**, making it easy for beginners and developers to explore and learn.
-
-This website is part of my continuous journey to master HTML, CSS, and UI/UX design. 🚀
+</div>
 
 ---
 
-## 📌 Overview  
+## 📖 Overview
 
-This website is designed to:  
-✅ Showcase **each project** with a preview image  
-✅ Provide **live deployment links** for direct interaction  
-✅ Offer **source code access** for easy learning  
-✅ Feature **JS animations** with ScrollReveal for smooth effects  
-✅ Ensure **full responsiveness** for all projects  
-✅ Include a **Back-to-Top button** for seamless navigation  
-✅ Have a **footer with useful resources**  
+Welcome to the **HTML & CSS Mini Projects** collection! This repository is a curated gallery of 40+ UI components, interactive layouts, and modern animations. It serves as a visual playground for front-end developers to explore **Neumorphism**, **Glassmorphism**, and **Responsive Design** using pure HTML, CSS, and minimal JavaScript.
 
-Built to help beginners explore and learn front-end development in an interactive way! 🌱  
+This is a byproduct of my **#100DaysOfCode** journey. Each component is a building block designed to bridge the gap between basic tutorials and real-world UI/UX implementation.
 
 ---
 
-## 📸 Screenshots
+## 📸 Visual Preview
 
-![Mini-Projects](Images/Screenshot.png)
+| 🏠 Home Page Interface | 📂 Project Gallery |
+| :---: | :---: |
+| ![Home Page](/Images/Screenshots/home.png) | ![Projects Page](/Images/Screenshots/Projects.png) |
 
 ---
 
@@ -134,10 +124,30 @@ Each project includes:
 
 ---
 
-## 🌟 Why This Project?
+## 🤝 Contributing
 
-This repository is part of my #100DaysOfCode challenge, focused on improving my **HTML & CSS** mastery through hands-on mini projects. <br />
-Each project marks progress in layout design, styling, responsiveness, and UI creativity.
+Want to add your own mini project? Contributions are welcome!
+
+Please read **[CONTRIBUTING.md](CONTRIBUTING.md)** for guidelines on:
+- Folder structure
+- Code quality
+- Image naming
+- Adding your project card
+
+---
+
+## 🛠 Installation & Usage  
+
+To use these projects locally, follow these steps:  
+
+1️⃣ **Clone this repository**  
+```bash
+git clone https://github.com/TonyStark-19/HTML-CSS-Projects.git
+```
+
+2️⃣ **Open a project folder and launch the `.html` file in your browser.**
+
+🚀 No dependencies required! Just HTML & CSS.
 
 ---
 
@@ -160,19 +170,12 @@ These are the resources I used to learn and build these projects:
 
 ---
 
-## 🛠 Installation & Usage  
+## 📜 License
 
-To use these projects locally, follow these steps:  
-
-1️⃣ **Clone this repository**  
-```bash
-git clone https://github.com/TonyStark-19/HTML-CSS-Projects.git
-```
-
-2️⃣ **Open a project folder and launch the `.html` file in your browser.**
-
-🚀 No dependencies required! Just HTML & CSS.
+This project is licensed under the MIT License. <br />
+You are free to use, modify, and share these projects.
 
 ---
 
-Feel free to explore, use, and modify these projects. If you find them helpful, consider giving this repo a ⭐! 😊
+Feel free to explore, use, and modify these projects. <br />
+If you find them helpful, consider giving this repo a ⭐! 😊
