@@ -172,10 +172,10 @@ These are the resources I used to learn and build these projects:
 
 ## 📜 License
 
-This project is licensed under the MIT License. <br />
+This project is licensed under the MIT License.
 You are free to use, modify, and share these projects.
 
 ---
 
-Feel free to explore, use, and modify these projects. <br />
+Feel free to explore, use, and modify these projects.
 If you find them helpful, consider giving this repo a ⭐! 😊
