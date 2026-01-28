@@ -39,12 +39,14 @@ The project is live and can be viewed here: [HTML & CSS Mini Projects Website](h
 
 ## 🛠 Technologies Used  
 
-- **🌍 HTML5** – Structuring web pages  
-- **🎨 CSS3** – Styling, animations, and layouts  
-- **⚡ JavaScript** – Scroll animations and interactions  
-- **📜 ScrollReveal.js** – Smooth animation effects  
-- **🖊️ VS Code** – Primary code editor  
-- **🐙 Git & GitHub** – Version control and hosting  
+| Technology          | Purpose                        |
+| ------------------- | ------------------------------ |
+| **HTML5**           | Page structure                 |
+| **CSS3**            | Styling, layouts & animations  |
+| **JavaScript**      | Scroll animations and interactions |
+| **ScrollReveal.js** | Scroll-based animations        |
+| **Vercel**          | Deployment                     |
+| **Git & GitHub**    | Version control                |
 
 ---
 
@@ -66,61 +68,69 @@ Each project includes:
 
 > **UI Components**
 
-1. **Profile Card** – Profile card UI design.
-2. **Profile Card 2** – Another profile card variation.
-3. **Credit Card UI Design** – Interactive credit card design.
-4. **Neumorphism Buttons** – Soft UI-inspired button design.
-5. **Neumorphism Effects on Social Media Icons** – Neumorphic icons.
-6. **Neumorphism Keyboard Design** – Keyboard using neumorphism.
-7. **Neumorphism Pagination Design** – Pagination with soft UI effects.
-8. **Popup Modal Box** – Simple popup modal design.
-9. **Search Box** – Basic search box UI.
-10. **Share Button Tooltip** – Interactive share button.
+| No. | Project                                       | Description                     |
+| --- | --------------------------------------------- | ------------------------------- |
+| 1   | **Profile Card**                              | Profile card UI design          |
+| 2   | **Profile Card 2**                            | Another profile card variation  |
+| 3   | **Credit Card UI Design**                     | Interactive credit card design  |
+| 4   | **Neumorphism Buttons**                       | Soft UI-inspired button design  |
+| 5   | **Neumorphism Effects on Social Media Icons** | Neumorphic icons                |
+| 6   | **Neumorphism Keyboard Design**               | Keyboard using neumorphism      |
+| 7   | **Neumorphism Pagination Design**             | Pagination with soft UI effects |
+| 8   | **Popup Modal Box**                           | Simple popup modal design       |
+| 9   | **Search Box**                                | Basic search box UI             |
+| 10  | **Share Button Tooltip**                      | Interactive share button        |
 
 ---
 
 > **Form Designs**
 
-11. **Animated Login Form** – A login form with animations.
-12. **Glassmorphism Login Form** – Login form using glassmorphism.
-13. **Neumorphism Login Form** – Neumorphic-style login form.
-14. **Responsive Login Form** – A responsive login + sign-in form.
-15. **Registration Form** – Fully functional registration form.
-16. **Responsive Contact Us Form** – Contact form with responsive design.
-17. **Email Subscription Box** – Stylish email subscription box.
-18. **Awesome Custom Radio Buttons** – Custom radio button styles.
-19. **Custom Radio Buttons** – Custom radio button style 2.
-20. **Custom Checkbox** – ON/OFF switch designs.
+| No. | Project                          | Description                         |
+| --- | -------------------------------- | ----------------------------------- |
+| 11  | **Animated Login Form**          | A login form with animations        |
+| 12  | **Glassmorphism Login Form**     | Login form using glassmorphism      |
+| 13  | **Neumorphism Login Form**       | Neumorphic-style login form         |
+| 14  | **Responsive Login Form**        | A responsive login + sign-in form   |
+| 15  | **Registration Form**            | Fully functional registration form  |
+| 16  | **Responsive Contact Us Form**   | Contact form with responsive design |
+| 17  | **Email Subscription Box**       | Stylish email subscription box      |
+| 18  | **Awesome Custom Radio Buttons** | Custom radio button styles          |
+| 19  | **Custom Radio Buttons**         | Custom radio button style 2         |
+| 20  | **Custom Checkbox**              | ON/OFF switch designs               |
 
 ---
 
 > **Animations & Effects**
 
-21. **3D Flip Card** – A 3D card that flips on hover.
-22. **Gradient Text Effect** – Gradient color text animation.
-23. **Google Loader** – Loader animation inspired by Google.
-24. **Simple Loader** – Basic loading animation.
-25. **Loading Animation** – Another creative loading animation.
-26. **Image Hover Animation** – Hover transition using z-index.
-27. **Neumorphism Loading Spinner** – Loading spinner with neumorphic design.
-28. **Image Slider with Clip Animation** – Sliding animation effect.
-29. **Flipping Card** – A card that flips when hovered.
-30. **Animated Skills Bar** – Skill progress bars with animations.
-31. **Navigation Links Hover Animation** – Tooltip effect on hover.
+| No. | Project                              | Description                            |
+| --- | ------------------------------------ | -------------------------------------- |
+| 21  | **3D Flip Card**                     | A 3D card that flips on hover          |
+| 22  | **Gradient Text Effect**             | Gradient color text animation          |
+| 23  | **Google Loader**                    | Loader animation inspired by Google    |
+| 24  | **Simple Loader**                    | Basic loading animation                |
+| 25  | **Loading Animation**                | Another creative loading animation     |
+| 26  | **Image Hover Animation**            | Hover transition using z-index         |
+| 27  | **Neumorphism Loading Spinner**      | Loading spinner with neumorphic design |
+| 28  | **Image Slider with Clip Animation** | Sliding animation effect               |
+| 29  | **Flipping Card**                    | A card that flips when hovered         |
+| 30  | **Animated Skills Bar**              | Skill progress bars with animations    |
+| 31  | **Navigation Links Hover Animation** | Tooltip effect on hover                |
 
 ---
 
 > **Layouts & Navigation**
 
-32. **Animated Navigation Menu Bar** – A stylish animated navbar.
-33. **Navigation Menu Bar Animation** – Various hover animations for navigation.
-34. **Responsive Pricing Table** – A well-structured pricing table.
-35. **Responsive Card Slider** – Card slider with smooth transitions.
-36. **Responsive Full-Screen Search Bar** – Full-screen search interface.
-37. **Glassmorphism Website** – Simple homepage using glassmorphism.
-38. **Simple Website** – A clean homepage layout.
-39. **Sidebar Menu** – Interactive sidebar navigation.
-40. **Vertical Tabs** – Vertical tab-based navigation.
+| No. | Project                               | Description                             |
+| --- | ------------------------------------- | --------------------------------------- |
+| 32  | **Animated Navigation Menu Bar**      | A stylish animated navbar               |
+| 33  | **Navigation Menu Bar Animation**     | Various hover animations for navigation |
+| 34  | **Responsive Pricing Table**          | A well-structured pricing table         |
+| 35  | **Responsive Card Slider**            | Card slider with smooth transitions     |
+| 36  | **Responsive Full-Screen Search Bar** | Full-screen search interface            |
+| 37  | **Glassmorphism Website**             | Simple homepage using glassmorphism     |
+| 38  | **Simple Website**                    | A clean homepage layout                 |
+| 39  | **Sidebar Menu**                      | Interactive sidebar navigation          |
+| 40  | **Vertical Tabs**                     | Vertical tab-based navigation           |
 
 ---
 
