@@ -137,13 +137,12 @@ p {
     letter-spacing: 1px;
 }
 
-/* Visual Side - Image Previews */
+/* Visual Side - Card Stack */
 
 .visual-side {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .preview-stack {
@@ -153,82 +152,92 @@ p {
 }
 
 .glass-preview-card {
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 24px;
-    padding: 12px;
-    width: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 320px;
     position: absolute;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
     animation: float 6s infinite ease-in-out;
-    z-index: 2;
-    margin-left: 40px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.card-title {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
 }
 
 .card-img-box {
-    height: 160px;
+    height: 180px;
     background: #0f172a;
-    border-radius: 18px;
-    margin-bottom: 15px;
+    border-radius: 12px;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .card-img-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.8;
 }
 
-.login-placeholder {
-    font-weight: 800;
-    font-size: 0.8rem;
-    color: var(--css-blue);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.card-info h4 {
-    font-size: 0.85rem;
-    margin-bottom: 12px;
-    color: #e2e8f0;
-    font-weight: 600;
-}
-
-.card-btns {
+.tags {
     display: flex;
     gap: 8px;
 }
 
-.mini-btn {
-    width: 32px;
-    height: 32px;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 8px;
+.tags span {
+    font-size: 0.6rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.tag-html {
+    background: rgba(227, 79, 38, 0.2);
+    color: var(--html-orange);
+}
+
+.tag-css {
+    background: rgba(21, 114, 182, 0.2);
+    color: var(--css-blue);
 }
 
 .secondary-card {
     bottom: 20px;
-    right: 0;
-    animation-delay: -3s;
-    transform: scale(0.85);
+    right: 20px;
+    transform: scale(0.9);
+    z-index: -1;
     opacity: 0.6;
-    z-index: 1;
+    animation-delay: -3s;
 }
 
 @keyframes float {
 
     0%,
     100% {
-        transform: translateY(0);
+        transform: translateY(0) rotate(0deg);
     }
 
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-20px) rotate(2deg);
     }
 }
 
