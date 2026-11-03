@@ -92,9 +92,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 480px) {
-
     .card {
         width: 90%;
         padding: 20px;

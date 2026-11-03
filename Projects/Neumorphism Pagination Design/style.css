@@ -71,9 +71,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 850px) {
-
     .container {
         padding: 20px;
     }
@@ -160,7 +158,6 @@ body {
 }
 
 @media (max-width: 450px) {
-
     .hidden5 {
         display: none;
     }

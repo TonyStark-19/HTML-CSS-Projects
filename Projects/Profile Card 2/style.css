@@ -170,9 +170,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 480px) {
-
     .main-box {
         height: 450px;
         width: 90%;
@@ -185,7 +183,6 @@ body {
 }
 
 @media (max-width: 410px) {
-
     .main-box {
         height: 350px;
         top: 65%;

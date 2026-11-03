@@ -156,9 +156,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 410px) {
-
     .container {
         width: 90%;
     }
@@ -173,14 +171,12 @@ body {
 }
 
 @media (max-width: 370px) {
-
     .container {
         padding: 20px;
     }
 }
 
 @media (max-width: 340px) {
-
     .container .facebook a {
         margin-bottom: 10px;
     }

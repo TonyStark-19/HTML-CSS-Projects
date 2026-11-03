@@ -111,9 +111,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 375px) {
-
     .card {
         width: 280px;
         height: 380px;

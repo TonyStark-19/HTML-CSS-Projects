@@ -82,9 +82,7 @@ h6 {
 }
 
 /* responsiveness */
-
 @media (max-width: 420px) {
-
     .container {
         height: 225px;
         width: 320px;
@@ -100,7 +98,6 @@ h6 {
 }
 
 @media (max-width: 350px) {
-
     .container {
         height: 225px;
         width: 280px;

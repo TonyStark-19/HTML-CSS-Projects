@@ -110,9 +110,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 500px) {
-
     .wrapper {
         width: 90vw;
     }
@@ -123,7 +121,6 @@ body {
 }
 
 @media (max-width: 350px) {
-
     .wrapper .box {
         padding: 20px;
     }

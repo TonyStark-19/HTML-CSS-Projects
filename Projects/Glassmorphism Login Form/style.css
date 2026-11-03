@@ -143,9 +143,7 @@ button:hover {
 }
 
 /* responsiveness */
-
 @media (max-width: 450px) {
-
     .login-wrapper {
         width: 90%;
     }
@@ -156,7 +154,6 @@ button:hover {
 }
 
 @media (max-width: 390px) {
-
     .password-options {
         flex-direction: column;
         align-items: flex-start;

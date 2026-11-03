@@ -118,6 +118,8 @@ body {
     filter: brightness(90%);
 }
 
+
+/* responsiveness */
 @media (max-width:1000px) {
     .container .card {
         width: calc(50% - 20px);

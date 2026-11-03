@@ -73,16 +73,13 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 440px) {
-
     #check:checked~.search-box {
         max-width: 340px;
     }
 }
 
 @media (max-width: 380px) {
-
     #check:checked~.search-box {
         max-width: 300px;
     }

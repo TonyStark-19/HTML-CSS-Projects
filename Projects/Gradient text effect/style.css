@@ -33,30 +33,25 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 900px) {
-
     .text {
         font-size: 120px;
     }
 }
 
 @media (max-width: 730px) {
-
     .text {
         font-size: 90px;
     }
 }
 
 @media (max-width: 565px) {
-
     .text {
         font-size: 70px;
     }
 }
 
 @media (max-width: 440px) {
-
     .text {
         font-size: 50px;
     }

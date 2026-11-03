@@ -55,9 +55,7 @@ body {
 }
 
 /* responsivenses */
-
 @media (max-width: 630px) {
-
     .wrapper {
         height: 200px;
         width: 200px;

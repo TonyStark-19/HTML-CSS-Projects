@@ -92,9 +92,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 460px) {
-
     .container {
         padding: 20px;
         width: 90%;
@@ -102,7 +100,6 @@ body {
 }
 
 @media (max-width: 400px) {
-
     .container {
         padding: 15px;
     }

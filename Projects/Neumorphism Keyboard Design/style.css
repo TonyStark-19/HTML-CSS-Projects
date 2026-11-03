@@ -62,9 +62,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 840px) {
-
     .container .wrapper {
         width: 700px;
     }
@@ -82,7 +80,6 @@ body {
 }
 
 @media (max-width: 730px) {
-
     .container .wrapper {
         width: 600px;
         padding: 20px;
@@ -102,7 +99,6 @@ body {
 }
 
 @media (max-width: 630px) {
-
     .container .wrapper {
         width: 500px;
         padding: 15px;
@@ -121,7 +117,6 @@ body {
 }
 
 @media (max-width: 530px) {
-
     .container .wrapper {
         width: 440px;
         padding: 10px;
@@ -141,7 +136,6 @@ body {
 }
 
 @media (max-width: 470px) {
-
     .container .wrapper {
         width: 360px;
         padding: 10px;
@@ -161,7 +155,6 @@ body {
 }
 
 @media (max-width: 380px) {
-
     .container .wrapper {
         width: 300px;
         padding: 10px;

@@ -55,9 +55,7 @@ button {
 }
 
 /* responsiveness */
-
 @media (max-width: 630px) {
-
     .button-wrap {
         flex-direction: column;
         gap: 40px;

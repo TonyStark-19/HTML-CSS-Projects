@@ -86,16 +86,13 @@ nav .menu {
 }
 
 /* responsiveness */
-
 @media (max-width: 950px) {
-
     .menu .logo a {
         font-size: 30px;
     }
 }
 
 @media (max-width: 850px) {
-
     .menu .logo a {
         font-size: 25px;
     }
@@ -106,14 +103,12 @@ nav .menu {
 }
 
 @media (max-width: 750px) {
-
     .menu ul li a {
         font-size: 16px;
     }
 }
 
 @media (max-width: 700px) {
-
     .menu ul {
         display: none;
     }
@@ -124,7 +119,6 @@ nav .menu {
 }
 
 @media (max-width: 400px) {
-
     .menu-btn {
         font-size: 25px;
     }

@@ -80,9 +80,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 600px) {
-
     .container {
         max-width: 500px;
         padding: 30px;
@@ -98,7 +96,6 @@ body {
 }
 
 @media (max-width: 550px) {
-
     .container {
         max-width: 450px;
         padding: 20px;

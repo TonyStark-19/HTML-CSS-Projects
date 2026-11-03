@@ -138,7 +138,6 @@ body {
 }
 
 @media (max-width: 952px) {
-
     .container {
         width: 90%;
         padding: 30px 35px 40px 35px;
@@ -146,7 +145,6 @@ body {
 }
 
 @media (max-width: 820px) {
-
     .container {
         margin: 40px 0;
         height: 100%;

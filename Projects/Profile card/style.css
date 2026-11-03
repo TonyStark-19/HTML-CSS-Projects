@@ -146,9 +146,7 @@ body {
 }
 
 /* responsivness */
-
 @media (max-width: 420px) {
-
     .profile-card {
         width: 90%;
     }

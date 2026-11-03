@@ -85,9 +85,7 @@ input:checked[type="checkbox"]::before {
 }
 
 /* responsiveness */
-
 @media (max-width: 400px) {
-
     .container {
         width: 90%;
     }

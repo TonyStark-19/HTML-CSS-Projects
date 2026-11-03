@@ -91,9 +91,7 @@ input[type="radio"] {
 }
 
 /* responsiveness */
-
 @media (max-width: 650px) {
-
     nav {
         width: 530px;
         height: 60px;
@@ -101,7 +99,6 @@ input[type="radio"] {
 }
 
 @media (max-width: 550px) {
-
     nav {
         width: 430px;
     }
@@ -112,7 +109,6 @@ input[type="radio"] {
 }
 
 @media (max-width: 450px) {
-
     nav {
         width: 330px;
     }
@@ -127,7 +123,6 @@ input[type="radio"] {
 }
 
 @media (max-width: 350px) {
-
     nav {
         width: 290px;
     }

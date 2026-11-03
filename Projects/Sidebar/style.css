@@ -144,9 +144,7 @@ li {
 }
 
 /* responsiveness */
-
 @media (max-width: 1245px) {
-
     .menu li {
         margin-top: 0;
     }

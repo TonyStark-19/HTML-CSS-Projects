@@ -154,9 +154,7 @@ body {
 }
 
 /* responsivenss */
-
 @media (max-width: 750px) {
-
     .hover-image {
         height: 300px;
         width: 250px;
@@ -168,7 +166,6 @@ body {
 }
 
 @media (max-width: 680px) {
-
     .icon-image {
         height: 60px;
         width: 60px;
@@ -193,7 +190,6 @@ body {
 }
 
 @media (max-width: 580px) {
-
     .container {
         margin-top: 300px;
     }
@@ -215,7 +211,6 @@ body {
 }
 
 @media (max-width: 480px) {
-
     .hidden {
         display: none;
     }
@@ -241,7 +236,6 @@ body {
 }
 
 @media (max-width: 440px) {
-
     .icon-image {
         height: 50px;
         width: 50px;

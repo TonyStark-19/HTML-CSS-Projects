@@ -106,9 +106,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 450px) {
-
     .wrapper {
         width: 90%;
     }
