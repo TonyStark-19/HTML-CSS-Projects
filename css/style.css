@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
 /* Root Variables */
-
 :root {
     --html-orange: #E34F26;
     --css-blue: #1572B6;
@@ -24,7 +23,6 @@ body {
 }
 
 /* ===== Custom Scrollbar ===== */
-
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -38,9 +36,7 @@ body {
     border-radius: 10px;
 }
 
-
 /* Background Mesh */
-
 .mesh-bg {
     position: fixed;
     inset: 0;
@@ -50,7 +46,6 @@ body {
 }
 
 /* Projects Container */
-
 .container {
     padding: 160px 8% 80px;
     min-height: 100vh;
@@ -73,7 +68,6 @@ body {
 }
 
 /* The Grid */
-
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -81,7 +75,6 @@ body {
 }
 
 /* Enhanced Project Card */
-
 .project-card {
     background: var(--glass);
     border: 1px solid var(--glass-border);
@@ -115,7 +108,6 @@ body {
 }
 
 /* Card Content Area */
-
 .card-content {
     padding: 1.8rem;
     display: flex;
@@ -156,7 +148,6 @@ body {
 }
 
 /* Footer & Back to Top */
-
 .back-to-top {
     position: fixed;
     bottom: 40px;
@@ -178,9 +169,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 1000px) {
-
     .section-header h2 {
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
@@ -192,7 +181,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
     .section-header {
         margin-bottom: 3rem;
     }

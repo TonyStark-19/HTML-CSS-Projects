@@ -1,5 +1,4 @@
 /* Navbar */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -46,9 +45,7 @@
 }
 
 /* responsiveness */
-
 @media (max-width: 500px) {
-
     .navbar {
         padding: 1.5rem;
     }
