@@ -1,6 +1,7 @@
 # 🤝 Contributing to HTML-CSS Mini Projects
 
 First off, thank you for your interest in contributing!  
+
 This project is part of a **#100DaysOfCode** journey and aims to build a growing collection of clean, beginner-friendly **HTML, CSS, and JavaScript mini projects**.
 
 We welcome new UI components, layouts, animations, and creative mini-projects 🎉
@@ -63,7 +64,7 @@ Your Project Name/
 ├── Pages/       ← If your project has multiple HTML pages
 │   └── about.html
 │
-├── CSS/         ← All CSS files go here
+├── css/         ← All CSS files go here if multiple else single file only
 │   └── style.css
 │
 └── Images/      ← All images used in your project
@@ -122,14 +123,17 @@ Inside the `project-grid` div, add your project card using this layout:
     <div class="card-image">
         <img src="/Images/Projects/YOUR-PROJECT-IMAGE.png" alt="Project Name">
     </div>
+
     <div class="card-content">
         <h3>Your Project Name</h3>
+
         <div class="button-group">
             <a target="_blank"
                 href="#"
                 class="icon-btn" title="View Code">
                 <i class="fa-solid fa-code"></i>
             </a>
+
             <a target="_blank" href="/Projects/Your Project Name/index.html" class="icon-btn" title="Live Demo">
                 <i class="fa-solid fa-up-right-from-square"></i>
             </a>
